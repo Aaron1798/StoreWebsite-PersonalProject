@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store - Home</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Used & Re-use</h1>
+        <img src="Logo/Logo.png" class="Logo" alt="Logo" title="My Logo">
+        <p>Welcome to my online store</p>
+    </header>
+
+    <div id="navlist">
+        <a href="Home.html">Home</a>
+        <a href="Store.html">Products</a>
+        <a href="Discount.html">Discounts</a>
+        <a href="History.html">History</a>
+        <a href="Login.html">Login</a>
+ 
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder=" Search..." name="search">
+            </form>
+        </div>
+    </div>
+
+
+    <section>
+        <h2>Welcome</h2>
+        <div id="cart-container">
+            <img src="Animation/cart.png" class="Cart" id="cart" alt="Shopping Cart" title="Shopping Cart Pic">
+        </div>
+    </section>
+    
+<div class="table">
+    <table>
+        <tr>
+            <th>Get your Discount</th>
+            <th>See Store Items</th>
+            <th>Learn About Us</th>
+        </tr>
+        <tr>
+            <td><button id="button1" onclick="Table_Buttons('Discount.html')">Click Here</button></td>
+            <td><button id="button2" onclick="Table_Buttons('Store.html')">Click Here</button></td>
+            <td><button id="button3" onclick="Table_Buttons('History.html')">Click Here</button></td>
+        </tr>
+    </table>
+</div>
+
+<section class="line-container">
+
+    <div id="wordCounter-Container">
+         <div id="wordCount">Word Count: 0</div>
+    </div>
+
+
+    <div class="ad-container">
+        <img src="ADs/Xbox_AD.jpg" class="ad" alt="Xbox AD" title="Xbox AD">
+    </div>
+
+    <h4>$1 First 3 Months - Xbox | Sponsored</h4>
+
+</section>
+
+
+    <script src="Home.js"></script>
+
+
+
+    <footer>
+        <p>&copy; 2023 Used & Re-use. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
