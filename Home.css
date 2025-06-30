@@ -108,7 +108,7 @@ nav a {
 }
 
 .ad {
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
@@ -155,64 +155,8 @@ h4 {
 }
 
 .Cart {
-    max-width: 100%;
+    width: 20%;
     height: auto;
-}
-
-
-
-/*_____________________*/
-
-/*Table and Page Options*/
-
-.table{
-    text-align: center;
-}
-
-.table {
-    width: 98%; 
-    background-color: royalblue;
-    padding: 20px;
-    border-radius: 8px; 
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
-button {
-    padding: 8px 16px;
-    cursor: pointer;
-}
-
-#button1 {
-    background-color: olive;
-    color: black;
-}
-
-#button2 {
-    background-color: orangered;
-    color: black;
-}
-
-#button3 {
-    background-color: greenyellow;
-    color: black;
-}
-
-
-/*_____________________*/
-
-/*WORD COUNTER*/
-#wordCount{
-    text-align: center;
 }
 
 
